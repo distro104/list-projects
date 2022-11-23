@@ -11,8 +11,6 @@ Para usalo somente coloque no diretorio onde estao os outros projetos e ele list
 ![Preview](preview.png)
 
 
-[Clique aqui para acessar a pagina](https://distro104.github.io/nlw-esport-explorer/)
-
 ## Tecnologia utilizada:
 * PHP
 * HTML
