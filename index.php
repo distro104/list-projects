@@ -107,6 +107,7 @@ aside a svg:hover{
 
 main {
     grid-area: content;
+    overflow-y: auto;
 }
 /* Format the list */
 main a{
@@ -115,7 +116,6 @@ main a{
     color: var(--letter-light);
     background-color: var(--color-2);
     width: 100%;
-    overflow-y: auto;
     padding: 15px 0px;
     border-bottom: 1px solid var(--color-3);
     
