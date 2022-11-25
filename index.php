@@ -11,8 +11,8 @@ function listDir(){
     }
     closedir($way);
 
-    array_pop($list);
-    array_shift($list);
+    //array_pop($list);
+    //array_shift($list);
 
     return $list;
 }
@@ -21,8 +21,10 @@ function listDir(){
 $list = listDir();
 $formatList = '';
 foreach($list as $item){
-    $dir = 'localhost/' . $item;
-    $formatList .= "<a href='{$item}' target='_blank'>Project: {$item}</a>";
+    if($item != "." && $item != ".."){
+        $dir = 'localhost/' . $item;
+        $formatList .= "<a href='{$item}' target='_blank'>Project: {$item}</a>";
+    }
 }
 
 ?>
